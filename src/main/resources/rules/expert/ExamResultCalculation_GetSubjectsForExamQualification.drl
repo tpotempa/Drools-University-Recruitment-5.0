@@ -1,0 +1,25 @@
+package rules.expert
+
+import pl.edu.atar.universityrecruitment.UniversityCandidate;
+import pl.edu.atar.universityrecruitment.ExamSubjectResult;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+// Kwalifikacja na podstawie egzaminu : Odczytanie kolekcji wszystkich przedmiotów egzaminu maturalnego kandydata
+rule "Get subjects for exam qualification (exam_result_calculation)"
+dialect "java"
+agenda-group "exam_result_calculation"
+salience 600
+lock-on-active true
+
+when
+    $uc : UniversityCandidate()
+    $esr : ExamSubjectResult() from $uc.examSubjectResult
+then
+  	insert($esr);
+  	modify($uc) {  	
+    	appendLogger("Rule 'Get subject for exam qualification (exam_result_calculation)' fired! Subject added: " + $esr.getExamSubject() + " [" + $esr.getExamLevel() + ", " + $esr.getExamResult() + "]")
+    }
+
+  	System.out.println("Add subject " + $esr.getExamSubject());
+end

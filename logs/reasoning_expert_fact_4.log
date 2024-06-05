@@ -1,0 +1,209 @@
+<object-stream>
+<org.drools.kiesession.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>4</type>
+      <activationId>Olympic qualification (exam_result_calculation) [1]</activationId>
+      <rule>Olympic qualification (exam_result_calculation)</rule>
+      <declarations>$uc=pl.edu.atar.universityrecruitment.UniversityCandidate@13f9ad9</declarations>
+      <factHandleIds>1</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>4</type>
+      <activationId>Get subjects for exam qualification (exam_result_calculation) [1, 5]</activationId>
+      <rule>Get subjects for exam qualification (exam_result_calculation)</rule>
+      <declarations>$esr=pl.edu.atar.universityrecruitment.ExamSubjectResult@680d4a6a; $uc=pl.edu.atar.universityrecruitment.UniversityCandidate@13f9ad9</declarations>
+      <factHandleIds>1,5</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>4</type>
+      <activationId>Get subjects for exam qualification (exam_result_calculation) [1, 4]</activationId>
+      <rule>Get subjects for exam qualification (exam_result_calculation)</rule>
+      <declarations>$esr=pl.edu.atar.universityrecruitment.ExamSubjectResult@e3994ef; $uc=pl.edu.atar.universityrecruitment.UniversityCandidate@13f9ad9</declarations>
+      <factHandleIds>1,4</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>4</type>
+      <activationId>Get subjects for exam qualification (exam_result_calculation) [1, 3]</activationId>
+      <rule>Get subjects for exam qualification (exam_result_calculation)</rule>
+      <declarations>$esr=pl.edu.atar.universityrecruitment.ExamSubjectResult@7048535f; $uc=pl.edu.atar.universityrecruitment.UniversityCandidate@13f9ad9</declarations>
+      <factHandleIds>1,3</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>4</type>
+      <activationId>Get subjects for exam qualification (exam_result_calculation) [1, 2]</activationId>
+      <rule>Get subjects for exam qualification (exam_result_calculation)</rule>
+      <declarations>$esr=pl.edu.atar.universityrecruitment.ExamSubjectResult@d5ce97f; $uc=pl.edu.atar.universityrecruitment.UniversityCandidate@13f9ad9</declarations>
+      <factHandleIds>1,2</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>6</type>
+      <activationId>Get subjects for exam qualification (exam_result_calculation) [1, 5]</activationId>
+      <rule>Get subjects for exam qualification (exam_result_calculation)</rule>
+      <declarations>$esr=pl.edu.atar.universityrecruitment.ExamSubjectResult@680d4a6a; $uc=pl.edu.atar.universityrecruitment.UniversityCandidate@13f9ad9</declarations>
+      <factHandleIds>1,5</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+    <org.drools.kiesession.audit.ObjectLogEvent>
+      <type>1</type>
+      <factId>6</factId>
+      <objectToString>pl.edu.atar.universityrecruitment.ExamSubjectResult@680d4a6a</objectToString>
+    </org.drools.kiesession.audit.ObjectLogEvent>
+    <org.drools.kiesession.audit.ObjectLogEvent>
+      <type>2</type>
+      <factId>1</factId>
+      <objectToString>pl.edu.atar.universityrecruitment.UniversityCandidate@13f9ad9</objectToString>
+    </org.drools.kiesession.audit.ObjectLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>7</type>
+      <activationId>Get subjects for exam qualification (exam_result_calculation) [1, 5]</activationId>
+      <rule>Get subjects for exam qualification (exam_result_calculation)</rule>
+      <declarations>$esr=pl.edu.atar.universityrecruitment.ExamSubjectResult@680d4a6a; $uc=pl.edu.atar.universityrecruitment.UniversityCandidate@13f9ad9</declarations>
+      <factHandleIds>1,5</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>4</type>
+      <activationId>Subject result multiplication on exam level (exam_result_calculation) [6]</activationId>
+      <rule>Subject result multiplication on exam level (exam_result_calculation)</rule>
+      <declarations>$esr=pl.edu.atar.universityrecruitment.ExamSubjectResult@680d4a6a</declarations>
+      <factHandleIds>6</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>6</type>
+      <activationId>Get subjects for exam qualification (exam_result_calculation) [1, 4]</activationId>
+      <rule>Get subjects for exam qualification (exam_result_calculation)</rule>
+      <declarations>$esr=pl.edu.atar.universityrecruitment.ExamSubjectResult@e3994ef; $uc=pl.edu.atar.universityrecruitment.UniversityCandidate@13f9ad9</declarations>
+      <factHandleIds>1,4</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+    <org.drools.kiesession.audit.ObjectLogEvent>
+      <type>1</type>
+      <factId>7</factId>
+      <objectToString>pl.edu.atar.universityrecruitment.ExamSubjectResult@e3994ef</objectToString>
+    </org.drools.kiesession.audit.ObjectLogEvent>
+    <org.drools.kiesession.audit.ObjectLogEvent>
+      <type>2</type>
+      <factId>1</factId>
+      <objectToString>pl.edu.atar.universityrecruitment.UniversityCandidate@13f9ad9</objectToString>
+    </org.drools.kiesession.audit.ObjectLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>7</type>
+      <activationId>Get subjects for exam qualification (exam_result_calculation) [1, 4]</activationId>
+      <rule>Get subjects for exam qualification (exam_result_calculation)</rule>
+      <declarations>$esr=pl.edu.atar.universityrecruitment.ExamSubjectResult@e3994ef; $uc=pl.edu.atar.universityrecruitment.UniversityCandidate@13f9ad9</declarations>
+      <factHandleIds>1,4</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>6</type>
+      <activationId>Get subjects for exam qualification (exam_result_calculation) [1, 3]</activationId>
+      <rule>Get subjects for exam qualification (exam_result_calculation)</rule>
+      <declarations>$esr=pl.edu.atar.universityrecruitment.ExamSubjectResult@7048535f; $uc=pl.edu.atar.universityrecruitment.UniversityCandidate@13f9ad9</declarations>
+      <factHandleIds>1,3</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+    <org.drools.kiesession.audit.ObjectLogEvent>
+      <type>1</type>
+      <factId>8</factId>
+      <objectToString>pl.edu.atar.universityrecruitment.ExamSubjectResult@7048535f</objectToString>
+    </org.drools.kiesession.audit.ObjectLogEvent>
+    <org.drools.kiesession.audit.ObjectLogEvent>
+      <type>2</type>
+      <factId>1</factId>
+      <objectToString>pl.edu.atar.universityrecruitment.UniversityCandidate@13f9ad9</objectToString>
+    </org.drools.kiesession.audit.ObjectLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>7</type>
+      <activationId>Get subjects for exam qualification (exam_result_calculation) [1, 3]</activationId>
+      <rule>Get subjects for exam qualification (exam_result_calculation)</rule>
+      <declarations>$esr=pl.edu.atar.universityrecruitment.ExamSubjectResult@7048535f; $uc=pl.edu.atar.universityrecruitment.UniversityCandidate@13f9ad9</declarations>
+      <factHandleIds>1,3</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>6</type>
+      <activationId>Get subjects for exam qualification (exam_result_calculation) [1, 2]</activationId>
+      <rule>Get subjects for exam qualification (exam_result_calculation)</rule>
+      <declarations>$esr=pl.edu.atar.universityrecruitment.ExamSubjectResult@d5ce97f; $uc=pl.edu.atar.universityrecruitment.UniversityCandidate@13f9ad9</declarations>
+      <factHandleIds>1,2</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+    <org.drools.kiesession.audit.ObjectLogEvent>
+      <type>1</type>
+      <factId>9</factId>
+      <objectToString>pl.edu.atar.universityrecruitment.ExamSubjectResult@d5ce97f</objectToString>
+    </org.drools.kiesession.audit.ObjectLogEvent>
+    <org.drools.kiesession.audit.ObjectLogEvent>
+      <type>2</type>
+      <factId>1</factId>
+      <objectToString>pl.edu.atar.universityrecruitment.UniversityCandidate@13f9ad9</objectToString>
+    </org.drools.kiesession.audit.ObjectLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>7</type>
+      <activationId>Get subjects for exam qualification (exam_result_calculation) [1, 2]</activationId>
+      <rule>Get subjects for exam qualification (exam_result_calculation)</rule>
+      <declarations>$esr=pl.edu.atar.universityrecruitment.ExamSubjectResult@d5ce97f; $uc=pl.edu.atar.universityrecruitment.UniversityCandidate@13f9ad9</declarations>
+      <factHandleIds>1,2</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>6</type>
+      <activationId>Subject result multiplication on exam level (exam_result_calculation) [6]</activationId>
+      <rule>Subject result multiplication on exam level (exam_result_calculation)</rule>
+      <declarations>$esr=pl.edu.atar.universityrecruitment.ExamSubjectResult@680d4a6a</declarations>
+      <factHandleIds>6</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+    <org.drools.kiesession.audit.ObjectLogEvent>
+      <type>2</type>
+      <factId>6</factId>
+      <objectToString>pl.edu.atar.universityrecruitment.ExamSubjectResult@680d4a6a</objectToString>
+    </org.drools.kiesession.audit.ObjectLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>7</type>
+      <activationId>Subject result multiplication on exam level (exam_result_calculation) [6]</activationId>
+      <rule>Subject result multiplication on exam level (exam_result_calculation)</rule>
+      <declarations>$esr=pl.edu.atar.universityrecruitment.ExamSubjectResult@680d4a6a</declarations>
+      <factHandleIds>6</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>4</type>
+      <activationId>Subject result summation / Automatyka i robotyka (exam_result_calculation) [1, 8]</activationId>
+      <rule>Subject result summation / Automatyka i robotyka (exam_result_calculation)</rule>
+      <declarations>$esr=pl.edu.atar.universityrecruitment.ExamSubjectResult@7048535f; $uc=pl.edu.atar.universityrecruitment.UniversityCandidate@13f9ad9</declarations>
+      <factHandleIds>8,1</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>6</type>
+      <activationId>Subject result summation / Automatyka i robotyka (exam_result_calculation) [1, 8]</activationId>
+      <rule>Subject result summation / Automatyka i robotyka (exam_result_calculation)</rule>
+      <declarations>$esr=pl.edu.atar.universityrecruitment.ExamSubjectResult@7048535f; $uc=pl.edu.atar.universityrecruitment.UniversityCandidate@13f9ad9</declarations>
+      <factHandleIds>8,1</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+    <org.drools.kiesession.audit.ObjectLogEvent>
+      <type>2</type>
+      <factId>1</factId>
+      <objectToString>pl.edu.atar.universityrecruitment.UniversityCandidate@13f9ad9</objectToString>
+    </org.drools.kiesession.audit.ObjectLogEvent>
+    <org.drools.kiesession.audit.ObjectLogEvent>
+      <type>3</type>
+      <factId>8</factId>
+      <objectToString>pl.edu.atar.universityrecruitment.ExamSubjectResult@7048535f</objectToString>
+    </org.drools.kiesession.audit.ObjectLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>7</type>
+      <activationId>Subject result summation / Automatyka i robotyka (exam_result_calculation) [1, 8]</activationId>
+      <rule>Subject result summation / Automatyka i robotyka (exam_result_calculation)</rule>
+      <declarations>$uc=pl.edu.atar.universityrecruitment.UniversityCandidate@13f9ad9</declarations>
+      <factHandleIds>8,1</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>6</type>
+      <activationId>Olympic qualification (exam_result_calculation) [1]</activationId>
+      <rule>Olympic qualification (exam_result_calculation)</rule>
+      <declarations>$uc=pl.edu.atar.universityrecruitment.UniversityCandidate@13f9ad9</declarations>
+      <factHandleIds>1</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>7</type>
+      <activationId>Olympic qualification (exam_result_calculation) [1]</activationId>
+      <rule>Olympic qualification (exam_result_calculation)</rule>
+      <declarations>$uc=pl.edu.atar.universityrecruitment.UniversityCandidate@13f9ad9</declarations>
+      <factHandleIds>1</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+  </events>
+</org.drools.kiesession.audit.WorkingMemoryLog>
+</object-stream>
